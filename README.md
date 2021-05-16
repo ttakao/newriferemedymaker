@@ -1,5 +1,7 @@
 # newriferemedymaker
 For driving "New Rife Frequency Therapy Remedy Maker V.1" on Windows PC.
+The function generator is required. Recommended device is OWON AG-051F.
+See https://en.remedy.academy
 
 Prerequisite
 
@@ -8,6 +10,7 @@ Prerequisite
 - PyUSB (pip install pyusb)
 - EasyGUI (pip install easy_gui)
 - LIBUSB (In case of AG-051F, install "WaveForm Generator")
+- The scalar coil should be connected to function generator.
 
 When installing LIBUSB, please check this document.(http://files.owon.com.cn/software/Application/AG_Series_USB_Driver_Install_Guide.pdf)
 
